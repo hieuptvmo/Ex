@@ -17,7 +17,7 @@ number.forEach((value) => {
 console.log(even)
 console.log(odd)
 
-////
+//
 
 let z = 0;
 
