@@ -4,7 +4,7 @@
 //// trong array đó và dùng callback để lấy dữ liệu về
 
 function objectCreate(num1, num2, num3, num4, num5) {
-    let obj = {num1, num2, num3, num4, num5};
+    let obj = { num1, num2, num3, num4, num5 };
     return obj;
 }
 
@@ -19,23 +19,28 @@ function getTotalObjectValue(obj) {
 
 let result = getTotalObjectValue(object);
 
-function getTotalArrayValue(arr, cb) {
-    if(arr == false) {
-        return cb('No value');
+function callback(data) {
+    if (data) {
+        return data;
     }
-    else{
-        let result = arr.reduce((a,b) => {
-            return a + b;
-        });
-        cb(result);
-    }
+    return null;
+}
+
+function getTotalArrayValue(arr, callback) {
+    console.log('Array: ')
+    console.log(arr)
+    let sum = 0;
+    arr.forEach(element => {
+        sum += element
+    });
+    return callback(sum);
 }
 
 getTotalArrayValue(result, (err, result) => {
-    if(err) {
+    if (err) {
         console.log(err)
     }
-    else{
+    else {
         console.log(result)
     }
 })
