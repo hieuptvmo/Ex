@@ -1,0 +1,29 @@
+[
+    {
+        "studentId": "7c848ebb-2372-4ea7-b817-361a4cad5cc1",
+        "firstName": "Huy",
+        "lastName": "Nong Duc",
+        "dob": "03/01/2003",
+        "address": "Ha Noi",
+        "classId": "4685e229-913b-47be-aab4-9004e3679ce2",
+        "conduct": "Good"
+    },
+    {
+        "studentId": "e62fb935-4fba-4a0b-b5a0-95e77ded8e44",
+        "firstName": "Giang",
+        "lastName": "Nong Truong",
+        "dob": "01/03/1998",
+        "address": "Ha Noi",
+        "classId": "53771677-628d-42e6-b70a-a6e06a1ef8da",
+        "conduct": "Good"
+    },
+    {
+        "studentId": "9d6f4f19-1bd8-424b-9e7d-c15453281654",
+        "firstName": "Nam",
+        "lastName": "Pham Nhat",
+        "dob": "20/08/2008",
+        "address": "Ha Noi",
+        "classId": "a1f54af4-2b9f-4bc7-b710-9736b4df926f",
+        "conduct": "Good"
+    }
+]
